@@ -1,4 +1,8 @@
 
+* {
+    font-family: Tahoma, serif;
+}
+
 #header {
     padding: 3vh  9.11vw 2vh;
     background-color: black;

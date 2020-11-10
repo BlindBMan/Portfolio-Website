@@ -7,7 +7,7 @@ import Introduction from './components/introduction/Introduction'
 
 function App() {
   return (
-      <div>
+      <div className="App">
         <Header />
         <Introduction />
       </div>
