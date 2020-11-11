@@ -1,0 +1,21 @@
+
+.custom-btn {
+     box-shadow: 0 0 40px -19px #E2E2E2;
+     background-color: #523FFF;
+     border-radius: 50px;
+     border: none;
+     display: inline-block;
+     cursor: default;
+     color: #ffffff;
+     font-family: Tahoma, sans-serif;
+     font-size: 25px;
+     font-weight: bold;
+     padding: 18px 36px;
+     text-decoration: none;
+}
+
+.custom-btn:hover {
+     text-decoration: none;
+     color: white;
+     background-color: #4836e3;
+}

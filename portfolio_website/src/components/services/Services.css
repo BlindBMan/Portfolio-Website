@@ -1,0 +1,28 @@
+
+#services {
+    height: 100vh;
+    background-color: #1A1B1E;
+}
+
+.title {
+    text-align: center;
+    padding-top: 7.21vh;
+    padding-bottom: 1.57vh;
+    font-size: 3.58vw;
+}
+
+.description {
+    text-align: center;
+    width: 32.55vw;
+    font-size: 1vw;
+    color: #ADADAD;
+}
+
+.service-components {
+    padding-top: 7vh;
+}
+
+.my-btn {
+    padding-top: 5.56vh;
+    text-align: center;
+}
