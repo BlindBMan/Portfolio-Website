@@ -1,7 +1,7 @@
 import React from 'react'
 import './Services.css'
 import ServiceComponent from './ServiceComponent'
-import CustomBtn from "../CustomBtn/CustomBtn";
+import CustomBtn from "../../CustomBtn/CustomBtn";
 
 export default function Services() {
     return (

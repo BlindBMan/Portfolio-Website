@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="row">
                 <Logo />
 
-                <div className="col-sm-4 d-inline-flex social-lst">
+                <div className="col-sm-3 d-inline-flex social-lst">
                     <GithubSVG className="lst-item"
                                onClick={() => { handleClick("https://github.com/BlindBMan") }}
                     />

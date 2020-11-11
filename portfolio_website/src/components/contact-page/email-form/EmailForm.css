@@ -1,0 +1,44 @@
+
+#email-form {
+    position: relative;
+    height: 88.3%;
+    background-color: #1A1B1E;
+}
+
+.title {
+    text-align: center;
+    padding-top: 7.21vh;
+    padding-bottom: 1.57vh;
+    font-size: 3.58vw;
+}
+
+.description {
+    text-align: center;
+    width: 32.55vw;
+    font-size: 1vw;
+    color: #ADADAD;
+}
+.input-container {
+    margin: 50px 0 50px 0;
+}
+
+input {
+    border-radius: 20px;
+    padding: 9px 30px;
+}
+
+input:not(:first-child) {
+    margin-left: 7.8vw;
+}
+
+input:focus {
+    border: none;
+}
+
+textarea {
+    border-radius: 20px;
+    resize: none;
+    height: 160px;
+    padding: 20px 10px 10px 20px;
+    margin-bottom: 6.57vh;
+}
