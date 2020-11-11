@@ -1,15 +1,12 @@
 import React from 'react'
 import './Header.css'
-import {ReactComponent as Logo} from "./logo.svg";
+import Logo from '../logo/Logo'
 
 function Header() {
     return (
         <div id="header" className=".container">
             <div className="row">
-                <div className="col-sm main-name">
-                    Samuel Gustin
-                    <Logo className="logo" />
-                </div>
+                <Logo />
 
                 <nav className="col-sm-3 navbar">
                     <a href="#">home</a>

@@ -3,8 +3,7 @@ import './App.css'
 import Header from './components/header/Header'
 import Introduction from './components/introduction/Introduction'
 import Services from "./components/services/Services";
-// import Services from './components/Services'
-// import Footer from './components/Footer'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -12,6 +11,7 @@ function App() {
         <Header />
         <Introduction />
         <Services />
+        <Footer />
       </div>
   )
 }

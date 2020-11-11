@@ -1,0 +1,15 @@
+
+.main-name {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+.main-name .a {
+    fill: #F35D48;
+}
+
+.logo {
+    padding-bottom: 1vh;
+}

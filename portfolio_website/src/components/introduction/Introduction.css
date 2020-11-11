@@ -11,6 +11,10 @@
     background-size: cover;
 }
 
+#introduction .a {
+    fill: white;
+}
+
 ul {
     list-style: circle;
     font-size: 0.97vw;
