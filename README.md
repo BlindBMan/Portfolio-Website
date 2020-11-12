@@ -18,4 +18,4 @@ With the help of *Adobe XD*.
 
 You can find more images in the *readme_imgs* folder.
 
-[UIDesign](https://github.com/BlindBMan/Portfolio-Website/readme_imgs/ui_design.jpg)
+![UIDesign](https://github.com/BlindBMan/Portfolio-Website/readme_imgs/ui_design.jpg)
