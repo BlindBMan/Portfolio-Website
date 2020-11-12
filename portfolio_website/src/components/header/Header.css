@@ -1,0 +1,19 @@
+
+* {
+    font-family: Tahoma, serif;
+}
+
+#header {
+    padding: 3vh  9.11vw 2vh;
+    background-color: black;
+}
+
+.navbar {
+    padding-bottom: 2.5vh;
+}
+
+.navbar > a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}

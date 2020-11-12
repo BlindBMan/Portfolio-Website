@@ -1,0 +1,17 @@
+
+#footer {
+    padding: 3vh  9.11vw 3vh;
+    background-color: #000000;
+}
+
+.lst-item:not(:first-child) {
+    margin-left: 1.5rem;
+}
+
+.social-lst {
+    padding-right: 0;
+}
+
+.lst-item:hover {
+    cursor: pointer;
+}
