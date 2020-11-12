@@ -1,8 +1,8 @@
 # Portfolio-Website
- My personal website where I display work projects
+ My personal website where I display work projects.
  
  ## Tehnologies used
- I have used this project as an opportunity to learn new stuff
+ I have used this project as an opportunity to learn new stuff.
  
  **Front-end**
  - React
@@ -14,4 +14,8 @@
  - SMTP with Python
  
 ## UI Design
-With the help of *Adobe XD*
+With the help of *Adobe XD*.
+
+You can find more images in the *readme_imgs* folder.
+
+[UIDesign](https://github.com/BlindBMan/Portfolio-Website/readme_imgs/ui_design.jpg)
