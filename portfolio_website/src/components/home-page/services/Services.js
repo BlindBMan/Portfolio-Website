@@ -17,7 +17,7 @@ export default function Services() {
                     </p>
                 </div>
 
-                <div className=" row service-components">
+                <div className="row service-components">
                     <ServiceComponent
                         title="Web Development"
                         content=""
