@@ -4,7 +4,7 @@ import IndividualProject from "./IndividualProject/IndividualProject";
 
 export default function ProjectsContent() {
     return (
-        <div id="projects-content" className=" d-flex flex-column h-100">
+        <div id="projects-content" className="d-flex flex-column h-100">
             <div className="flex-column row"
                  style={{marginBottom: "50px", width: "100%"}}
             >
