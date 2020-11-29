@@ -13,8 +13,8 @@
  - Bootstrap
  
  **Back-end**
- - Django with DRF(REST Framework)
- - SMTP with Python
+ - Next js
+ - Netlify
  
 ## UI Design
 With the help of *Adobe XD*.
