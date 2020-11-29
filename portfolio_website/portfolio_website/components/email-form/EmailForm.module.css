@@ -1,7 +1,7 @@
 
-#email-form {
+.emailForm {
     position: relative;
-    height: 88.3%;
+    min-height: 80.3vh;
     background-color: #1A1B1E;
 }
 
@@ -10,6 +10,7 @@
     padding-top: 7.21vh;
     padding-bottom: 1.57vh;
     font-size: 3.58vw;
+    color: white;
 }
 
 .description {
@@ -19,27 +20,27 @@
     color: #ADADAD;
 }
 
-.input-container {
+.inputContainer {
     margin: 50px 0 50px 0;
 }
 
-input {
+input.inpt {
     border-radius: 20px;
     padding: 9px 30px;
 }
 
-input:not(:first-child) {
+.inputMargin {
     margin-left: 7.8vw;
 }
 
-input:focus {
+input.inpt:focus {
     outline: none;
 }
 
-textarea {
+.textareaStyle {
     border-radius: 20px;
     resize: none;
-    height: 160px;
+    height: 21vh;
     padding: 20px 10px 10px 20px;
     margin-bottom: 6.57vh;
 }
