@@ -1,0 +1,18 @@
+
+.footer {
+    padding: 3vh  9.11vw 3vh;
+    background-color: #000000;
+    color: white;
+}
+
+.lstItemMargin {
+    margin-left: 1.5rem;
+}
+
+.socialLst {
+    padding-right: 0;
+}
+
+.lstItem:hover {
+    cursor: pointer;
+}

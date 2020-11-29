@@ -1,0 +1,18 @@
+
+.serviceComponent {
+    border-radius: 5%;
+    background-color: black;
+    padding-top: 3.89vh;
+    height: 45vh;
+    width: 30vw;
+}
+
+.serviceDescription {
+    color: #ADADAD;
+    font-size: 0.9vw;
+    text-align: center;
+    width: 18.53vw;
+    padding-top: 30px;
+    line-height: 2.5;
+    word-spacing: 0.13vw;
+}

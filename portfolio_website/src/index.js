@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+// import Index from './Index';
 import reportWebVitals from './reportWebVitals';
 
-import SpecificProject from "./components/specific-project-page/SpecificProject";
+import SpecificProject from "../portfolio_website/pages/specificProject";
 
 ReactDOM.render(
   <React.StrictMode>
