@@ -1,8 +1,6 @@
 # Portfolio-Website
 
  My personal website where I display work projects
-
- My personal website where I display work projects.
  
  ## Tehnologies used
  I have used this project as an opportunity to learn new stuff.
