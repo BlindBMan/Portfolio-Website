@@ -1,0 +1,32 @@
+
+.individualProject {
+    position: relative;
+}
+
+.projImg {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ededed;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.individualProject:hover .overlay {
+    opacity: 0.2;
+    cursor: pointer;
+}
