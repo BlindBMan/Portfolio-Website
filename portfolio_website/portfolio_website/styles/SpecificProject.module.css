@@ -1,20 +1,21 @@
 
-#main-container {
+.mainContainer {
     height: 77.5vh;
     background-color: #1A1B1E;
     width: 100%;
 }
 
-#imgs-container {
+.imgsContainer {
     margin-left: 7.16vw;
     width: 650px;
 }
 
-#tech-container {
+.techContainer {
     background-color: #000;
     border-radius: 15px;
     width: 80%;
     height: 50%;
+    color: white;
 }
 
 .title {
@@ -22,9 +23,10 @@
     padding-top: 7.21vh;
     padding-bottom: 1.57vh;
     font-size: 3.58vw;
+    color: white;
 }
 
-img {
+.imgStyle {
     width: 300px;
     height: 200px;
     border-radius: 15px;
