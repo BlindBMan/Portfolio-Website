@@ -4,6 +4,7 @@ import ServiceComponent from './ServiceComponent'
 import CustomBtn from "../CustomBtn/CustomBtn";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/cjs/Row";
+import Link from "next/link";
 
 export default function Services() {
     return (
@@ -37,9 +38,14 @@ export default function Services() {
                 </Row>
 
                 <Row noGutters className={`${styles.myBtn} d-flex flex-column`}>
-                    <div className="align-self-center">
-                        <CustomBtn content="Hire me!"/>
-                    </div>
+                    <Link href={'/contact'}>
+                        <a>
+                            <div className="align-self-center">
+                                <CustomBtn content="Hire me!"/>
+                            </div>
+                        </a>
+                    </Link>
+
                 </Row>
             </div>
         </Container>
