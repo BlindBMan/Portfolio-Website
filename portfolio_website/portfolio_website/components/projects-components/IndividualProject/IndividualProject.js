@@ -1,5 +1,5 @@
 import React from 'react'
-import './IndividualProject.module.css'
+import styles from './IndividualProject.module.css'
 
 export default function IndividualProject(props) {
     function handleClick() {
@@ -7,15 +7,16 @@ export default function IndividualProject(props) {
     }
 
     return (
-        <div className="individual-project">
+        <div className={`${styles.individualProject}`}>
             <img src={props.imgSrc}
                  alt={props.title}
                  onClick={handleClick}
+                 className={styles.projImg}
             />
 
-            <div className="overlay d-flex flex-column">
+            <div className={`${styles.overlay} d-flex flex-column`}>
                 <div
-                    className="text align-self-center"
+                    className={`align-self-center`}
                     style={{
                             position: "absolute",
                             top: "50%",

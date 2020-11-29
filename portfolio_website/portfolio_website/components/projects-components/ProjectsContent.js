@@ -1,21 +1,22 @@
 import React from 'react'
-import './ProjectsContent.module.css'
+import styles from './ProjectsContent.module.css'
 import IndividualProject from "./IndividualProject/IndividualProject";
+import Row from "react-bootstrap/cjs/Row";
 
 export default function ProjectsContent() {
     return (
-        <div id="projects-content" className="d-flex flex-column h-100">
-            <div className="flex-column row"
+        <div className={`${styles.projectsContent} d-flex flex-column h-100`}>
+            <Row className="flex-column"
                  style={{marginBottom: "50px", width: "100%"}}
             >
-                <h1 className="title align-self-center">
+                <h1 className={`${styles.title} align-self-center`}>
                     Projects
                 </h1>
-            </div>
+            </Row>
 
-            <div id="main-container" className="row h-100">
+            <Row className={`${styles.mainContainer} h-100`}>
                 <div className="flex-column col-sm-2">
-                    <ul className="categories-menu">
+                    <ul className={`${styles.categoriesMenu}`}>
                         <li>All</li>
                         <li>Web Dev</li>
                         <li>Automation</li>
@@ -23,7 +24,7 @@ export default function ProjectsContent() {
                     </ul>
                 </div>
 
-                <div id="individual-projects" className="d-flex flex-sm-wrap h-100">
+                <div className={`${styles.individualProjects} d-flex flex-sm-wrap h-100`}>
                     <IndividualProject title="Proiect1" imgSrc="assets/images/test_pic.jpg" />
                     <IndividualProject title="Proiect2" imgSrc="assets/images/test_pic.jpg" />
                     <IndividualProject title="Proiect3" imgSrc="assets/images/test_pic.jpg" />
@@ -35,7 +36,7 @@ export default function ProjectsContent() {
                     <IndividualProject title="Proiect3" imgSrc="assets/images/test_pic.jpg" />
 
                 </div>
-            </div>
+            </Row>
         </div>
     )
 }

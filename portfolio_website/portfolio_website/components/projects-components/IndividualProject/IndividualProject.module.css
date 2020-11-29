@@ -1,9 +1,9 @@
 
-.individual-project {
+.individualProject {
     position: relative;
 }
 
-img {
+.projImg {
     width: 300px;
     height: 200px;
     border-radius: 15px;
@@ -26,7 +26,7 @@ img {
     text-align: center;
 }
 
-.individual-project:hover .overlay {
+.individualProject:hover .overlay {
     opacity: 0.2;
     cursor: pointer;
 }
