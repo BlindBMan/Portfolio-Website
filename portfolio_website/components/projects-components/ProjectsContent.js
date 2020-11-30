@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from './ProjectsContent.module.css'
 import IndividualProject from "./IndividualProject/IndividualProject";
 import Row from "react-bootstrap/cjs/Row";
 
 export default function ProjectsContent() {
+    const [projectType, setProjectType] = useState(["web", "auto", "iot"])
+
     return (
         <div className={`${styles.projectsContent} d-flex flex-column h-100`}>
             <Row className="flex-column"
@@ -17,24 +19,40 @@ export default function ProjectsContent() {
             <Row className={`${styles.mainContainer} h-100`}>
                 <div className="flex-column col-sm-2">
                     <ul className={`${styles.categoriesMenu}`}>
-                        <li>All</li>
-                        <li>Web Dev</li>
-                        <li>Automation</li>
-                        <li>IOT</li>
+                        <li onClick={() => { setProjectType(["web", "auto", "iot"]) }}>All</li>
+                        <li onClick={() => { setProjectType(["web"]) }}>Web Dev</li>
+                        <li onClick={() => { setProjectType(["auto"]) }}>Automation</li>
+                        <li onClick={() => { setProjectType(["iot"]) }}>IOT</li>
                     </ul>
                 </div>
 
                 <div className={`${styles.individualProjects} d-flex flex-sm-wrap h-100`}>
-                    <IndividualProject title="Proiect1" imgSrc="assets/images/test_pic.jpg" />
-                    <IndividualProject title="Proiect2" imgSrc="assets/images/test_pic.jpg" />
-                    <IndividualProject title="Proiect3" imgSrc="assets/images/test_pic.jpg" />
-                    <IndividualProject title="Proiect3" imgSrc="assets/images/test_pic.jpg" />
-                    <IndividualProject title="Proiect3" imgSrc="assets/images/test_pic.jpg" />
-                    <IndividualProject title="Proiect3" imgSrc="assets/images/test_pic.jpg" />
-                    <IndividualProject title="Proiect3" imgSrc="assets/images/test_pic.jpg" />
-                    <IndividualProject title="Proiect3" imgSrc="assets/images/test_pic.jpg" />
-                    <IndividualProject title="Proiect3" imgSrc="assets/images/test_pic.jpg" />
+                    {
+                        projectType.includes("web") && <>
+                             <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
+                             <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
+                             <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
+                             <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
+                             </>
+                    }
 
+                    {
+                        projectType.includes("iot") && <>
+                        <IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />
+                        <IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />
+                        <IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />
+                        <IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />
+                        </>
+                    }
+
+                    {
+                        projectType.includes("auto") && <>
+                        <IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />
+                        <IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />
+                        <IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />
+                        <IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />
+                        </>
+                    }
                 </div>
             </Row>
         </div>
