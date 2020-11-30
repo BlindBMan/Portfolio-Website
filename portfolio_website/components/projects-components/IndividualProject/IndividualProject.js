@@ -8,7 +8,7 @@ export default function IndividualProject(props) {
     }
 
     return (
-        <Link href={'/specificProject'}>
+        <Link href={`/specificProjects/${props.title}`}>
             <a>
                 <div className={`${styles.individualProject}`}>
                     <img src={props.imgSrc}

@@ -29,7 +29,7 @@ export default function ProjectsContent() {
                 <div className={`${styles.individualProjects} d-flex flex-sm-wrap h-100`}>
                     {
                         projectType.includes("web") && <>
-                             <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
+                             <IndividualProject title="project1" imgSrc="assets/images/test_pic.jpg" />
                              <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
                              <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
                              <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
