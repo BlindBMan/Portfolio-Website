@@ -29,28 +29,28 @@ export default function ProjectsContent() {
                 <div className={`${styles.individualProjects} d-flex flex-sm-wrap h-100`}>
                     {
                         projectType.includes("web") && <>
-                             <IndividualProject title="project1" imgSrc="assets/images/test_pic.jpg" />
-                             <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
-                             <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
-                             <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />
+                             <IndividualProject title="FadedIsland" />
+                             <IndividualProject title="AGCD" />
+                             {/*// <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />*/}
+                             {/*// <IndividualProject title="web" imgSrc="assets/images/test_pic.jpg" />*/}
                              </>
                     }
 
                     {
                         projectType.includes("iot") && <>
-                        <IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />
-                        <IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />
-                        <IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />
-                        <IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />
+                        {/*<IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />*/}
+                        {/*<IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />*/}
+                        {/*<IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />*/}
+                        {/*<IndividualProject title="iot" imgSrc="assets/images/test_pic.jpg" />*/}
                         </>
                     }
 
                     {
                         projectType.includes("auto") && <>
-                        <IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />
-                        <IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />
-                        <IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />
-                        <IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />
+                        {/*<IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />*/}
+                        {/*<IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />*/}
+                        {/*<IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />*/}
+                        {/*<IndividualProject title="auto" imgSrc="assets/images/test_pic.jpg" />*/}
                         </>
                     }
                 </div>

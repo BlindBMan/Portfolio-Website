@@ -19,7 +19,7 @@
     right: 0;
     opacity: 0;
     transition: .5s ease;
-    background-color: #ededed;
+    background-color: #daddf8;
     width: 300px;
     height: 200px;
     border-radius: 15px;
@@ -27,6 +27,6 @@
 }
 
 .individualProject:hover .overlay {
-    opacity: 0.2;
+    opacity: 0.5;
     cursor: pointer;
 }

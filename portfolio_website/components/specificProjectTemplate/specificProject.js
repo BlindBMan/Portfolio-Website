@@ -1,25 +1,25 @@
 import React, {useEffect, useState} from 'react'
 import styles from '../../styles/SpecificProject.module.css'
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import CustomBtn from "../../components/CustomBtn/CustomBtn";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
+import CustomBtn from "../CustomBtn/CustomBtn";
 import Row from "react-bootstrap/cjs/Row";
 
 export default function SpecificProject(props) {
     const [data, setData] = useState({})
 
     const getData = () => {
-        fetch(`/assets/images/${props.title}/data.json`,
-            {
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json'
-                }
-            }).then(response => {
-            return response.json()
-        }).then(respJson => {
-            setData(respJson)
-        });
+            fetch(`/assets/images/${props.title}/data.json`,
+                {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    }
+                }).then(response => {
+                return response.json()
+            }).then(respJson => {
+                setData(respJson)
+            }).catch(err => console.log(err));
     }
 
     useEffect(() => {
@@ -34,7 +34,7 @@ export default function SpecificProject(props) {
                      style={{marginBottom: "6.57vh", width: "100%"}}
                 >
                     <h1 className={`${styles.title} align-self-center`}>
-                        {props.title}
+                        {data.title}
                     </h1>
                 </Row>
 
