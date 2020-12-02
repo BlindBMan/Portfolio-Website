@@ -8,10 +8,10 @@ export default function IndividualProject(props) {
     }
 
     return (
-        <Link href={'/specificProject'}>
+        <Link href={`/specificProjects/${props.title}`}>
             <a>
                 <div className={`${styles.individualProject}`}>
-                    <img src={props.imgSrc}
+                    <img src={`/assets/images/${props.title}/1.jpg`}
                          alt={props.title}
                          onClick={handleClick}
                          className={styles.projImg}
@@ -24,12 +24,12 @@ export default function IndividualProject(props) {
                                 position: "absolute",
                                 top: "50%",
                                 left: "50%",
-                                fontSize: "20px",
+                                fontSize: "1.3rem",
                                 color: "black",
                                 fontWeight: "bold",
                                 textAlign: "center",
                                 transform: "translate(-50%, -50%)",
-                                opacity: "1"
+                                opacity: "1!important"
                             }}
                         >{props.title}</div>
                     </div>

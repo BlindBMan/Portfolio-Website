@@ -1,0 +1,6 @@
+{
+    "title": "Faded Island",
+    "description": "Faded Island is a 2D top-down RPG game with its own unique storyline that you will just have to play to find out. Take care, it is quite addicting xD",
+    "tech": ["JavaScript", "Tiled", "Photoshop", "Canvas", "CSS3", "HTML5"],
+    "link": "https://github.com/BlindBMan/FadedIsland"
+}

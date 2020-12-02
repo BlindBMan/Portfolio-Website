@@ -1,0 +1,6 @@
+{
+    "title": "Accelerating Greedy Coordinate Descent",
+    "description": "Coordinate descent algorithm present interest for they are faster than gradient descent methods with regards to problems where sparsity is present.",
+    "tech": ["Python", "Jupyter", "Math", "Matplotlib", "LateX"],
+    "link": "https://github.com/BlindBMan/Accelerating-Greedy-Coordinate-Descent-Methods"
+}
