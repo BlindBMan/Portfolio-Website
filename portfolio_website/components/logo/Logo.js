@@ -5,7 +5,7 @@ import Col from "react-bootstrap/cjs/Col"
 
 export default function Logo() {
     return (
-        <Col sm className={styles.mainName}>
+        <Col xs={9} sm={10} className={styles.mainName}>
             Samuel Gustin
             <LogoSVG className={styles.logo} />
         </Col>

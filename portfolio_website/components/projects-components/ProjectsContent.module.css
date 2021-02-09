@@ -32,10 +32,52 @@
     border-right: 3px solid white;
     color: white;
 }
+
 .categoriesMenu > li:hover {
     cursor: pointer;
 }
 
 .categoriesMenu > li:not(:first-child) {
     margin-top: 35px;
+}
+
+.menuText {
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 575px) {
+    .title {
+        font-size: 6vw;
+    }
+
+    .categoriesMenuMobile {
+        list-style: none;
+        padding-left: 0;
+        font-weight: bold;
+        color: white;
+        margin-left: 10.9vw;
+        padding-bottom: 5px;
+    }
+
+    .categoriesMenuMobile li {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 15px;
+        margin-top: 0!important;
+    }
+
+    .menuText {
+        font-size: 2.5vw;
+    }
+
+    .individualProjectsMobile {
+        margin-left: 14vw;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .individualProjectsMobile {
+        margin-left: 0;
+    }
 }

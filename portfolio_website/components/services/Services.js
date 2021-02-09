@@ -20,7 +20,7 @@ export default function Services() {
                     </p>
                 </Row>
 
-                <Row noGutters className={styles.serviceComponents}>
+                <Row noGutters className={`${styles.serviceComponents} d-flex flex-sm-wrap`}>
                     <ServiceComponent
                         title="Web Development"
                         content=""

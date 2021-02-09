@@ -8,29 +8,21 @@ export default function IndividualProject(props) {
     }
 
     return (
-        <Link href={`/specificProjects/${props.title}`}>
+        <Link
+            href={`/specificProjects/${props.title}`}
+            // as={`/specificProjects/${props.title}`}
+        >
             <a>
                 <div className={`${styles.individualProject}`}>
                     <img src={`/assets/images/${props.title}/1.jpg`}
                          alt={props.title}
                          onClick={handleClick}
-                         className={styles.projImg}
+                         className={`${styles.projImg} ${styles.projImgMobile}`}
                     />
 
-                    <div className={`${styles.overlay} d-flex flex-column`}>
+                    <div className={`${styles.overlay} ${styles.overlayMobile} d-flex flex-column`}>
                         <div
-                            className={`align-self-center`}
-                            style={{
-                                position: "absolute",
-                                top: "50%",
-                                left: "50%",
-                                fontSize: "1.3rem",
-                                color: "black",
-                                fontWeight: "bold",
-                                textAlign: "center",
-                                transform: "translate(-50%, -50%)",
-                                opacity: "1!important"
-                            }}
+                            className={`${styles.overlayText} align-self-center`}
                         >{props.title}</div>
                     </div>
                 </div>

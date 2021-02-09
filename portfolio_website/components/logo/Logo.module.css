@@ -1,6 +1,6 @@
 
 .mainName {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     color: white;
     font-weight: bold;
 
@@ -8,4 +8,39 @@
 
 .logo {
     padding-bottom: 1vh;
+}
+
+@media only screen and (max-width: 1096px) {
+    .mainName {
+        padding-top: 10px;
+        font-size: 1.75vw;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .mainName {
+        padding-top: 10px;
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .mainName {
+        padding-top: 10px;
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .mainName {
+        padding-top: 20px;
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .logo {
+        width: 20px;
+        height: 15px;
+    }
 }

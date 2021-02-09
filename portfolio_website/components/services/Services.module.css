@@ -22,6 +22,7 @@
 
 .serviceComponents {
     padding-top: 7vh;
+    /*max-width: 100%;*/
 }
 
 .myBtn {

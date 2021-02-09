@@ -4,16 +4,6 @@ import LaptopSVG from '../../public/assets/svgs/laptop.svg'
 
 
 export default function ServiceComponent(props) {
-    // function chooseSVG(title) {
-    //     switch (title) {
-    //         // case "Web Development": return laptop
-    //         // case "automation": return robot
-    //         default: return ""
-    //
-    //     }
-
-    // }
-
     return (
         <div className={`${styles.serviceComponent} container col-sm-3`}>
             <div className="d-flex flex-column"

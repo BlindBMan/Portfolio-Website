@@ -24,7 +24,7 @@ export default function SpecificProject(props) {
 
     useEffect(() => {
         getData()
-    })
+    }, [])
 
     return (
         <div>
@@ -40,10 +40,10 @@ export default function SpecificProject(props) {
 
                 <Row className="d-flex" style={{width: "100%", marginBottom: "5vh"}}>
                     <div className={`${styles.imgsContainer} col-sm-7`}>
-                        <img className={styles.imgStyle} src={`/assets/images/${props.title}/1.jpg`} alt={""} />
-                        <img className={styles.imgStyle} src={`/assets/images/${props.title}/2.jpg`} alt={""} />
-                        <img className={styles.imgStyle} src={`/assets/images/${props.title}/3.jpg`} alt={""} />
-                        <img className={styles.imgStyle} src={`/assets/images/${props.title}/4.jpg`} alt={""} />
+                        <img className={`${styles.imgStyle} ${styles.imgStyleMobile}`} src={`/assets/images/${props.title}/1.jpg`} alt={""} />
+                        <img className={`${styles.imgStyle} ${styles.imgStyleMobile}`} src={`/assets/images/${props.title}/2.jpg`} alt={""} />
+                        <img className={`${styles.imgStyle} ${styles.imgStyleMobile}`} src={`/assets/images/${props.title}/3.jpg`} alt={""} />
+                        <img className={`${styles.imgStyle} ${styles.imgStyleMobile}`} src={`/assets/images/${props.title}/4.jpg`} alt={""} />
                     </div>
 
                     <Row className={"d-flex flex-column col-sm-4"}
