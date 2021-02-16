@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Services() {
     return (
-        <Container fluid className={`${styles.services} d-flex justify-content-center`}>
+        <Container fluid className={`${styles.services} d-flex justify-content-center h-100`}>
             <div className="d-flex flex-column">
                 <Row noGutters className="d-flex flex-column">
                     <h1 className={styles.title}>
@@ -20,7 +20,7 @@ export default function Services() {
                     </p>
                 </Row>
 
-                <Row noGutters className={`${styles.serviceComponents} d-flex flex-sm-wrap`}>
+                <Row noGutters className={`${styles.serviceComponents} d-flex flex-wrap`}>
                     <ServiceComponent
                         title="Web Development"
                         content=""

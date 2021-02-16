@@ -29,3 +29,32 @@
     padding-top: 5.56vh;
     text-align: center;
 }
+
+
+@media screen and (max-width: 890px) {
+    .title {
+        font-size: 4.58vw;
+    }
+
+    .description {
+        width: 42.55vw;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .title {
+        font-size: 5.58vw;
+    }
+    .description {
+        width: 65.55vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .description {
+        width: 66.55vw;
+        font-size: 2.75vw;
+    }
+}

@@ -32,3 +32,40 @@
     position: absolute;
     bottom: 4.5vh;
 }
+
+.welcomeText {
+    text-align: center;
+    font-size: 1.5vw;
+    padding-bottom: 1vh;
+}
+
+@media screen and (max-width: 890px) {
+    .welcomeText {
+        font-size: 2.5vw;
+        padding-bottom: 0;
+    }
+
+    .listInLine {
+        font-size: 2.97vw;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .welcomeText {
+        font-size: 4vw;
+        padding-bottom: 0;
+    }
+
+    .mainSentence {
+        font-size: 6.85vw;
+        padding-bottom: 1.5vh;
+        padding-top: 1vh;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+
+
+}

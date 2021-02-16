@@ -43,7 +43,7 @@ export default function EmailForm() {
                     className={`d-flex flex-column`}
                     style={{marginBottom: "4.57vh"}}
                 >
-                    <div className="align-self-center">
+                    <div className={`${styles.btnMobile} align-self-center`}>
                         <CustomBtn content="Email me!"/>
                     </div>
                 </Row>

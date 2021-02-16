@@ -17,9 +17,9 @@ export default function Footer() {
     return (
         <Container fluid className={styles.footer}>
             <Row noGutters>
-                <Logo />
+                <Logo colXs={8} colSm={9}/>
 
-                <div className={`col-sm-3 d-inline-flex ${styles.socialLst}`}>
+                <div className={`col-4 col-sm-3 d-inline-flex ${styles.socialLst}`}>
                     <GithubSVG className={`${styles.lstItem}`}
                                onClick={() => { handleClick("https://github.com/BlindBMan") }}
                     />

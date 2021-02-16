@@ -5,15 +5,13 @@ import LaptopSVG from '../../public/assets/svgs/laptop.svg'
 
 export default function ServiceComponent(props) {
     return (
-        <div className={`${styles.serviceComponent} container col-sm-3`}>
+        <div className={`${styles.serviceComponent} container col-xs-2 col-sm-3`}>
             <div className="d-flex flex-column"
                  style={{height: "auto"}}
             >
-                <LaptopSVG className="align-self-center" />
+                <LaptopSVG className={`${styles.svgMobile} align-self-center`} />
 
-                <p className="align-self-center"
-                   style={{fontSize: "1.7vw", paddingTop: "2.63vh", color: "white"}}
-                >
+                <p className={`${styles.title} align-self-center`}>
                     {props.title}
                 </p>
 

@@ -39,32 +39,23 @@ export default function SpecificProject(props) {
                 </Row>
 
                 <Row className="d-flex" style={{width: "100%", marginBottom: "5vh"}}>
-                    <div className={`${styles.imgsContainer} col-sm-7`}>
+                    <div className={`${styles.imgsContainer} col-md-6`}>
                         <img className={`${styles.imgStyle} ${styles.imgStyleMobile}`} src={`/assets/images/${props.title}/1.jpg`} alt={""} />
                         <img className={`${styles.imgStyle} ${styles.imgStyleMobile}`} src={`/assets/images/${props.title}/2.jpg`} alt={""} />
                         <img className={`${styles.imgStyle} ${styles.imgStyleMobile}`} src={`/assets/images/${props.title}/3.jpg`} alt={""} />
                         <img className={`${styles.imgStyle} ${styles.imgStyleMobile}`} src={`/assets/images/${props.title}/4.jpg`} alt={""} />
                     </div>
 
-                    <Row className={"d-flex flex-column col-sm-4"}
-                         style={{width: "100%", paddingRight: "5vw", paddingLeft: "0"}}
+                    <Row className={`${styles.descRow} d-flex flex-column col-md-4 col-sm-5`}
                     >
                         <div className={`${styles.description} align-self-center`}
-                             style={{marginTop: "0",
-                                     lineHeight: "2.5",
-                                     letterSpacing: "2.2px"
-                             }}
                         >
                             {data.description}
                         </div>
                         <div className={`${styles.techContainer} d-flex flex-column mt-auto align-self-center`}>
-                            <Row className={"align-self-center"} style={{marginTop: "35px"}}>
+                            <Row className={`${styles.titleRow} align-self-center`}>
                                 <h6
-                                    style={{
-                                        textAlign: "center",
-                                        fontWeight: "bold",
-                                        fontSize: "1.2rem"
-                                    }}
+                                    className={styles.listsTitle}
                                 >
                                     Technologies used
                                 </h6>
@@ -72,26 +63,20 @@ export default function SpecificProject(props) {
                             {
                                 data.tech && data.tech.length > 0 &&
                                     <Row
-                                        className={"align-self-center"}
-                                        style={{
-                                            marginBottom: "25px",
-                                            marginTop: "auto",
-                                            width: "100%"
-                                        }}
+                                        className={`${styles.listRow} align-self-center`}
                                     >
 
-                                        <ul style={{
-                                            marginLeft: "40px"
-                                        }}>
+                                        <ul
+                                            className={`${styles.leftList}`}
+                                            >
                                             <li>{data.tech[0]}</li>
                                             <li>{data.tech[1]}</li>
                                             <li>{data.tech[2]}</li>
                                         </ul>
 
-                                        <ul style={{
-                                            marginLeft: "auto",
-                                            marginRight: "60px"
-                                        }}>
+                                        <ul
+                                            className={`${styles.rightList}`}
+                                            >
                                             <li>{data.tech[3]}</li>
                                             <li>{data.tech[4]}</li>
                                             <li>{data.tech[5]}</li>
@@ -102,13 +87,8 @@ export default function SpecificProject(props) {
                     </Row>
                 </Row>
 
-                <Row className={"align-items-end flex-column col-sm-11"}
-                     style={{
-                         width: "100%",
-                         marginBottom: "5vh",
-                         paddingRight: "0"
-                     }}
-                >
+                <Row className={`${styles.githubBtn} align-items-end flex-column col-sm-11`}
+                    >
                     <CustomBtn content={"Github"}/>
                 </Row>
             </div>

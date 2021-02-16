@@ -1,4 +1,11 @@
 
+.title {
+    font-size: 1.7vw;
+    padding-top: 2.63vh;
+    color: white;
+
+}
+
 .serviceComponent {
     border-radius: 5%;
     background-color: black;
@@ -15,4 +22,49 @@
     padding-top: 30px;
     line-height: 2.5;
     word-spacing: 0.13vw;
+}
+
+@media screen and (max-width: 860px) {
+    .serviceComponent {
+        height: 40vh;
+        width: 33vw;
+    }
+
+    .serviceDescription {
+        font-size: 1.5vw;
+        width: 22.53vw;
+        padding-top: 44px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .title {
+        font-size: 2.2vw;
+        padding-top: 1.63vh;
+    }
+
+    .serviceComponent {
+        height: 33vh;
+        width: 33vw;
+        margin-top: 10px;
+    }
+
+    .serviceDescription {
+        font-size: 1.7vw;
+        width: 22.53vw;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .serviceComponent {
+        height: 25vh;
+    }
+}
+
+@media screen and (max-height: 740px) {
+    .svgMobile {
+        height: 15px;
+    }
 }

@@ -16,3 +16,27 @@
 .lstItem:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 1080px) {
+    .footer {
+        padding-right: 7.11vw;
+    }
+
+    .lstItemMargin {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .footer {
+        padding-top: 1vh;
+    }
+
+    .lstItemMargin {
+        margin-left: 0.5rem;
+    }
+
+    .socialLst {
+        padding-top: 14px;
+    }
+}

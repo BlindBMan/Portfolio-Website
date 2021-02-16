@@ -10,11 +10,7 @@ function Introduction() {
                 <div className="d-flex flex-column">
 
                     <h5
-                        style={{
-                            textAlign: "center",
-                            fontSize: "1.5vw",
-                            paddingBottom: "1vh"
-                        }}
+                        className={styles.welcomeText}
                     >
                         Welcome!
                     </h5>

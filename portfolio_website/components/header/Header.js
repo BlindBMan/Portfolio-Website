@@ -14,7 +14,7 @@ function Header() {
     return (
         <Container fluid className={`${styles.header}`}>
             <Row noGutters>
-                <Logo />
+                <Logo colXs={9} colSm={10} />
 
                 <Col xs={1} sm={2} md={2}>
                     <Navbar collapseOnSelect expand={'lg'} variant={'dark'} className={`${styles.navbar}`}>

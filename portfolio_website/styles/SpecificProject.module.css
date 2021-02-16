@@ -35,19 +35,240 @@
 }
 
 .description {
+    margin-top: 0;
+    line-height: 2.5;
+    letter-spacing: 2px;
     text-align: center;
     font-size: 1vw;
     color: #ADADAD;
 }
 
-@media only screen and (max-width: 360px) {
-    .imgStyleMobile {
-        display: block;
+.listRow {
+    margin-bottom: 25px;
+    margin-top: auto;
+    width: 100%;
+    font-size: 1vw;
+}
+
+.leftList {
+    margin-left: 2.08vw;
+}
+
+.rightList {
+    margin-left: auto;
+    margin-right: 3.12vw;
+}
+
+.githubBtn {
+    width: 100%;
+    margin-bottom: 5vh;
+    padding-right: 0;
+}
+
+.listsTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.titleRow {
+    margin-top: 35px;
+}
+
+.descRow {
+    width: 100%;
+    padding-right: 5vw;
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+    .imgStyle {
         width: 225px;
         height: 150px;
-        border-radius: 15px;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .leftList {
+        margin-left: 1.08vw;
+    }
+}
+
+@media only screen and (max-width: 1115px) {
+    .listsTitle {
+        font-size: 1rem;
+    }
+
+    .imgStyle:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+
+    .description {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .imgStyle {
+        width: 165px;
+        height: 120px;
+    }
+
+    .listsTitle {
+        font-size: 0.9rem;
+    }
+
+    .leftList {
+        margin-left: 0;
+    }
+
+    .titleRow {
+        margin-top: 28px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .imgStyle:nth-last-child(-n+2) {
         margin-bottom: 10px;
+    }
+
+    .descRow {
+        height: 25.12vh;
         margin-left: auto;
         margin-right: auto;
     }
+
+    .imgsContainer {
+        margin-left: 14vw;
+    }
+
+    .titleRow {
+        margin-top: 25px;
+    }
+
+    .description {
+        margin-top: 2px;
+        font-size: 1.2vw;
+    }
+
+    .githubBtn {
+        margin-bottom: 3vh;
+    }
 }
+
+@media only screen and (max-width: 645px) {
+    .imgsContainer {
+        margin-left: 21vw;
+    }
+
+    .description {
+        font-size: 1.4vw;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .descRow {
+        width: 50%;
+        padding-right: 0;
+    }
+
+    .imgsContainer {
+        margin-left: 18vw;
+    }
+
+    .techContainer {
+        height: 60%;
+    }
+
+    .listRow {
+        margin-bottom: 7px;
+        font-size: 2vw;
+    }
+
+    .githubBtn {
+        margin-bottom: 1vh;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .imgsContainer {
+        margin-left: 28vw;
+    }
+
+    .description {
+        font-size: 1.9vw;
+    }
+
+    .techContainer {
+        /*height: 52%;*/
+        height: 100px;
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .imgStyleMobile {
+        display: block;
+        /*width: 225px;*/
+        /*height: 150px;*/
+        /*border-radius: 15px;*/
+        /*margin-bottom: 10px;*/
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .imgsContainer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .descRow {
+        height: 40vh;
+
+    }
+
+    .description {
+        font-size: 2.36vw;
+    }
+
+    .techContainer {
+        width: 100%;
+    }
+
+    .listsTitle {
+        font-size: 0.8rem;
+    }
+
+    .listRow {
+        font-size: 2.8vw;
+    }
+
+    .leftList {
+        margin-left: -10px;
+    }
+
+    .rightList {
+        margin-right: 5.12vw;
+    }
+}
+
+
+@media screen and (max-height: 888px) {
+    .descRow {
+        height: 35vh;
+    }
+}
+
+@media screen and (max-height: 825px) {
+    .descRow {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-height: 565px) {
+    .descRow {
+        height: 44vh;
+    }
+}
+
+

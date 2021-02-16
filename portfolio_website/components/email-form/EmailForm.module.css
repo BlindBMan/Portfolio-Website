@@ -44,3 +44,14 @@ input.inpt:focus {
     padding: 20px 10px 10px 20px;
     margin-bottom: 6.57vh;
 }
+
+@media screen and (max-width: 910px) {
+    .title {
+        font-size: 4.58vw;
+    }
+
+    .description {
+        width: 41.55vw;
+        font-size: 1.5vw;
+    }
+}
